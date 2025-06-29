@@ -1,4 +1,6 @@
-# Binary-Security-Summer
+# From-rookie-to-join-Tencent-Spark-Talent-Program
+
+
 ## Description: 
 This project aims to record my experience of learning binary security during the summer vacation and apply to join the Tencent Spark Talent Progeam
 
