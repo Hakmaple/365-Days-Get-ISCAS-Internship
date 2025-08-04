@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 int main() {
-    mmap(0x804d000, 0x1000, 7, 0x21, -1, 0);
+    mmap(0xdead0000, 0x1000, 7, 0x21, -1, 0);
 
-    char *p = (char *)0x804d000;
+    char *p = (char *)0xdead0000;
     char str[0x20];
 
     read(0, p, 0x1000);
