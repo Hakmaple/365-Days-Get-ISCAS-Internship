@@ -1,19 +1,17 @@
 #include <stdio.h>
-#include <string.h>
+#include <stdlib.h>
 
-char buf2[100];
+int main() {
+    mmap(0x804d000, 0x1000, 7, 0x21, -1, 0);
 
-int main(void)
-{
-    setvbuf(stdout, 0LL, 2, 0LL);
-    setvbuf(stdin, 0LL, 1, 0LL);
+    char *p = (char *)0x804d000;
+    char str[0x20];
 
-    char buf[100];
+    read(0, p, 0x1000);
 
-    printf("No system for you this time !!!\n");
-    gets(buf);
-    strncpy(buf2, buf, 100);
-    printf("bye bye ~");
+    read(0, str, 0x50);
 
     return 0;
 }
+
+// gcc ret2shellcode.c -no-pie -fno-stack-protector -g
