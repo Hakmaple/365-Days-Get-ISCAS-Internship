@@ -12,3 +12,5 @@ ELF (Executable and Linkable Format)文件，也就是在`Linux`中的目标文�
     - 动态链接器 (Dynamic Linker)将它与可执行文件以及其它共享目标组合在一起生成进程镜像。
 
 Tips: 目标文件由汇编器和链接器创建，是文本程序的二进制形式，可以直接在处理器上运行。那些需要虚拟机才能够执行的程序(Java下的JVM)不属于这一范围。
+
+施工ing
