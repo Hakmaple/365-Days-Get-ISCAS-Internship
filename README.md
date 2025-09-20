@@ -18,5 +18,6 @@
 - [ret2shellcode](./Pwns/Stack%20Overflow-x86/ret2shellcode/)
     - [sniperoj-pwn100-shellcode-x86-64](./Pwns/Stack%20Overflow-x86/ret2shellcode/sniperoj-pwn100-shellcode-x86-64/README.md)
 
-- [ret2syscall](./Stack%20Overflow-x86/ret2syscall/README.md)
+- [ret2syscall](./Stack%20Overflow-x86/ret2syscall/) 
+    - [bamboofox-ret2syscall](./Stack%20Overflow-x86/ret2syscall/bamboofox-ret2syscall/README.md)
 
