@@ -1,5 +1,6 @@
 # 0x00.这是什么?
 这个仓库仅仅用于记录我从一个小白开始学习二进制安全过程的一个仓库，并不是一个教学资源集合，受`https://github.com/Vancir/365-days-get-xuanwulab-job`项目影响于是笔者也效仿前人，希望能用大概一年的时间有能力胜任中国科学院软件研究所的实习。
+> 由于笔者目前还是一名在校学生，只有在周末之余才有时间和精力去整理笔记，很多时候一周能记录只有一两天
 
 
 # 0x01.目录结构
@@ -13,8 +14,12 @@
 
 
 
-| 日期       | 标题                                                                            |
+| Week1       | Title                                                                            |
 | ---------- | ------------------------------------------------------------------------------- |
 | Day1       | [学习CTF Wiki栈溢出基础和et2text ](./Stack%20Overflow-x86/ret2text/)                            |
 | Day2       | [学习CTF Wiki栈溢出下ret2shellcode ](./Pwns/Stack%20Overflow-x86/ret2shellcode/)                            |
 | Day3       | [学习CTF Wiki栈溢出下ret2syscall ](./Stack%20Overflow-x86/ret2syscall/)                            |
+
+| Week2       | Title                                                                            |
+| ---------- | ------------------------------------------------------------------------------- |
+| Updating       | [Updating ](./Stack%20Overflow-x86/ret2text/)                            |
