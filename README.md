@@ -16,6 +16,7 @@
 | Day1       | [学习CTF Wiki栈溢出基础和ret2text ](./week1/ret2text/)                            |
 | Day2       | [学习CTF Wiki栈溢出下ret2shellcode ](./week1/ret2shellcode/)                            |
 | Day3       | [学习CTF Wiki栈溢出下ret2syscall ](./week1/ret2syscall/)                            |
+| Day4       | [学习CTF Wiki栈溢出下ret2libc ](./week1/ret2libc)                            |
 | 章末总结       | [对先前学习的知识进行总结以查漏补缺 ](./week1/)                            |
 
 | Week2       | Title                                                                            |
